@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Landing Page</title>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script defer src="./src/js/scripts.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <img id="logo" src="./img/logo.png" alt="Company Logo" />
+    </header>
+
+    <main id="main">
+      <div class="main-heading">
+        <h1 class="main-heading-title">
+          It's time to
+          <span class="main-heading-title-red">get movtivated</span>
+        </h1>
+        <p class="main-heading-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium,
+          dolores.
+        </p>
+        <a class="main-membership-btn" href="#membership">Membership</a>
+      </div>
+    </main>
+
+    <div class="reviews">
+      <img src="./img/stars.png" alt="" />
+      <h2>Over 5,000+ Reviews</h2>
+    </div>
+
+    <div class="sponsors">
+      <h2>Death Strength Sponsors</h2>
+      <div class="sponsor-logos">
+        <img src="./img/rogue.png" alt="Rogue Fitness Logo" />
+        <img src="./img/ghost.png" alt="Ghost Strong Logo" />
+        <img src="./img/gymshark.png" alt="Gymshark Logo" />
+      </div>
+    </div>
+
+    <section id="membership" class="membership-plans-container">
+      <h2 class="membership-plans-heading">Choose your membership plan</h2>
+      <ul class="membership-details">
+        <li>No signup fee</li>
+        <li>No annual fee</li>
+      </ul>
+      <div class="membership-plans">
+        <div class="membership-plan-background">
+          <p>Day Pass</p>
+          <button class="membership-select-btn">Select</button>
+        </div>
+        <div class="membership-plan-background">
+          <p>Week Pass</p>
+          <button class="membership-select-btn">Select</button>
+        </div>
+        <div class="membership-plan-background">
+          <p>Month Pass</p>
+          <button class="membership-select-btn">Select</button>
+        </div>
+        <div class="membership-plan-background">
+          <p>Year Pass</p>
+          <button class="membership-select-btn">Select</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-information-container">
+        <h3 class="contact-header">Contact</h3>
+        <p class="contact-information">
+          Address<br />3700 S Atlantic Ave #405 New Smyrna Beach, Florida(FL),
+          32169
+        </p>
+        <p class="contact-information">Phone<br />(386) 409-8896</p>
+        <p class="contact-information">Email<br />DeathStrength@gmail.com</p>
+      </div>
+      <form class="contact-form">
+        <h3 class="contact-header">Get in touch</h3>
+        <input id="name" name="name" type="text" placeholder="Name" required />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          id="phone"
+          name="phone"
+          type="text"
+          placeholder="Phone Number"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          cols="30"
+          rows="7"
+          placeholder="Message"
+          required
+        ></textarea>
+        <div>
+          <input class="contact-form-submit-btn" type="submit" />
+          <span class="success-message fade hidden"
+            >Your message was successfully sent!</span
+          >
+        </div>
+      </form>
+    </section>
+
+    <footer id="footer">
+      <a class="footer-link" href="#">Privacy Policy</a>
+      <a class="footer-link" href="#">Terms & Conditions</a>
+      <p class="copy-right">
+        &copy; 2021 Death Strength Inc. All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
